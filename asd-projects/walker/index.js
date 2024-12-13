@@ -75,22 +75,6 @@ function runProgram(){
     if(event.which === KEY.DOWN){
       walker.speedY += 5
     }
-    
-  }
-
-  function handleKeyDown(event) {
-    if(event.which === KEY.LEFT){
-      walker.speedX = -5;
-    }
-    if(event.which === KEY.RIGHT){
-      walker.speedX = 5;
-    }
-    if(event.which === KEY.UP){
-      walker.speedY = -5;
-    }
-    if(event.which === KEY.DOWN){
-      walker.speedY = 5;
-    }
     if(event.which === KEY.A){
       walker2.speedX = -5;
     }
@@ -106,7 +90,11 @@ function runProgram(){
     if(event.which === KEY.C){
       changeColor();
     }
+    
   }
+
+  
+    
   
   function handleKeyUp(event) {
     if(event.which === KEY.LEFT||event.which === KEY.RIGHT){
