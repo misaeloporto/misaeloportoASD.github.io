@@ -1,11 +1,11 @@
 
 body {
-  background-color: darkgreen;
+  background-color: rgb(66, 199, 66);
 }
 
 #board {
-  width: 440px;
-  height: 440px;
+  width: 437px;
+  height: 437px;
   border: 1px solid white;
   background-color: black;
 }
@@ -35,3 +35,4 @@ body {
   background-color: red;
   z-index: 1;
 }
+

@@ -80,6 +80,10 @@ function update() {
   if (hasCollidedWithApple()) {
     handleAppleCollision();
   }
+
+  if(endGame === true){
+    <button class ="button"> </button>
+  }
 }
 
 function checkForNewDirection(event) {
