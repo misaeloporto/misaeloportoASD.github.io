@@ -13,19 +13,21 @@ function runProgram(){
 
   const BOARD_WIDTH = $("#board").width();
   const BOARD_HEIGHT = $("#board").height();
-  const WALKER_WIDTH = $("#board").width();
-  const WALKER_HEIGHT = $("#board").height();
+  const WALKER_WIDTH = $("#walker").width();
+  const WALKER_HEIGHT = $("#walker").height();
 
   const KEY ={
     LEFT:37,
-    RIGHT:38,
-    UP:39,
+    RIGHT:39,
+    UP:38,
     DOWN:40,
 
     A: 65,
     W:87,
     D:68,
     S:83,
+
+    C:67,
   }
   
   
