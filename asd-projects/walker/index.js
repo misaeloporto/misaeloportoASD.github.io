@@ -39,8 +39,8 @@ function runProgram(){
     speedY: 0,
   }
   var walker2 = {
-    xPos: 0,
-    yPos: 0,
+    xPos: BOARD_WIDTH-WALKER_WIDTH,
+    yPos: BOARD_HEIGHT-WALKER_HEIGHT,
     speedX: 0,
     speedY: 0,
   }
@@ -66,16 +66,16 @@ function runProgram(){
  
   function handleKeyDown(event) {
     if(event.which === KEY.LEFT){
-      walker.speedX += -5
+      walker.speedX = -5
     }
     if(event.which === KEY.UP){
-      walker.speedY += -5
+      walker.speedY = -5
     }
     if(event.which === KEY.RIGHT){
-      walker.speedX += 5
+      walker.speedX = 5
     }
     if(event.which === KEY.DOWN){
-      walker.speedY += 5
+      walker.speedY = 5
     }
     if(event.which === KEY.A){
       walker2.speedX = -5;
